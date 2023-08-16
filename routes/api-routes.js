@@ -1,6 +1,7 @@
 //importing dependencies
 const fs = require('fs');
 
+//GET route for retrieving notes
 app.get('/api/notes', (req, res) => {
     const notes = JSON.parse(fs.readFileSync('db.json', 'utf-8'));
     res.json(notes);
