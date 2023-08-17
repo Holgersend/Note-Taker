@@ -8,6 +8,14 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;   // set to the value of environment 
 
+//Middleware to handle JSON 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+
+//Serve static files (HTML, CSS, JS) 
 app.use(express.static('public')); 
+
+
+app.listen(PORT, () => {
+    console.log('Server is running on por ${PORT}');
+});
