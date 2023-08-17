@@ -15,6 +15,8 @@ app.use(express.json());
 //Serve static files (HTML, CSS, JS) 
 app.use(express.static('public')); 
 
+require('./routes/api-routes')(app);
+require('./routes/html-routes')(app);
 
 app.listen(PORT, () => {
     console.log('Server is running on por ${PORT}');
