@@ -18,6 +18,10 @@ AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
+<IMG SRC='assets/Screenshot 2023-08-17 at 10.14.55 PM.png'>
+<IMG SRC='assets/Screenshot 2023-08-17 at 10.14.28 PM.png'>
+
+
 ## Installation 
 
 1- Clone this repository to your local machine. [gh repo clone Holgersend/README-Note-Taker](https://github.com/Holgersend/Note-Taker.git)
